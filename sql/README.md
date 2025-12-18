@@ -4,8 +4,8 @@ select * from customers_v2;
 select * from order_items_v2;
 select * from orders_v2;
 select * from products_v2;
-# Daily Sales and Revenue
 # Step 1: Change Data Type
+# Daily Sales and Revenue
 Select str_to_date(order_date and delivery_date, "%Y-%m-%d") 
 from orders_v2;
 select * from orders_v2;
